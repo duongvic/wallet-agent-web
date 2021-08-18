@@ -1,0 +1,13 @@
+.printer {
+    display: none !important;
+}
+
+@media print {
+    html>body>:not(.printer) {
+        display: none !important;
+    }
+
+    html>body>.printer {
+        display: block !important;
+    }
+}

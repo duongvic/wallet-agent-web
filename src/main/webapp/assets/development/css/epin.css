@@ -1,0 +1,272 @@
+@media only screen and (max-width: 767px) {
+  .mpo-summary p.fr {
+    float: none
+  }
+}
+
+@media (max-width: 768px) {
+  .col-sm-0 {
+    display: none
+  }
+
+  .col-xs-0 {
+    display: none
+  }
+}
+
+.image-empty {
+  height: 6.5em
+}
+
+.lb-image {
+  cursor: pointer;
+  text-align: center
+}
+
+.rd-img {
+  margin-top: 8px
+}
+
+.gr-logo {
+  margin: auto;
+  text-align: center
+}
+
+.control-label {
+  height: 36px
+}
+
+.nav-title {
+  color: #33353f;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 20px;
+  vertical-align: middle;
+  font-weight: 500
+}
+
+.img-logo {
+  width: 100px
+}
+
+/*img {*/
+  /*vertical-align: middle;*/
+  /*height: 60%;*/
+  /*width: 100%*/
+/*}*/
+.sprite-card-garena_100_40 { background:url('sprite-img-card.1.0.0.png') 0 -0; width:100px;height:40px;display:inline-block; }
+.sprite-card-gate_100_40 { background:url('sprite-img-card.1.0.0.png') -100px -0; width:100px;height:40px;display:inline-block; }
+.sprite-card-gmobile_100_40 { background:url('sprite-img-card.1.0.0.png') -200px -0; width:100px;height:40px;display:inline-block; }
+.sprite-card-mobifone_100_40 { background:url('sprite-img-card.1.0.0.png') -300px -0; width:100px;height:40px;display:inline-block; }
+.sprite-card-oncash_100_40 { background:url('sprite-img-card.1.0.0.png') -400px -0; width:100px;height:40px;display:inline-block; }
+
+.sprite-card-sfone_100_40 { background:url('sprite-img-card.1.0.0.png') -500px -0; width:100px;height:40px;display:inline-block; }
+.sprite-card-vcoin_100_40 { background:url('sprite-img-card.1.0.0.png') -600px -0; width:100px;height:40px;display:inline-block; }
+.sprite-card-viettel_100_40 { background:url('sprite-img-card.1.0.0.png') -700px -0; width:100px;height:40px;display:inline-block; }
+.sprite-card-vinplay_100_40 { background:url('sprite-img-card.1.0.0.png') -800px -0; width:100px;height:40px;display:inline-block; }
+.sprite-card-vnmobile_100_40 { background:url('sprite-img-card.1.0.0.png') -900px -0; width:100px;height:40px;display:inline-block; }
+.sprite-card-vinaphone_100_40 { background:url('sprite-img-card.1.0.0.png') -1000px -0; width:100px;height:40px;display:inline-block; }
+.sprite-card-zing_100_40 { background:url('sprite-img-card.1.0.0.png') -1100px -0; width:100px;height:40px;display:inline-block; }
+.sprite-card-line_none_100_40 { background:url('sprite-img-card.1.0.0.png') -1200px -0; width:1px;height:40px;display:inline-block; }
+
+.sprite-card-mbPhoneTPT_100_40 {
+  background: url('../statis/images/logo/mbPhoneTPT.png');
+  width: 70px;
+  height: 40px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.sprite-card-vnPhoneTPT_100_40 {
+  background: url('../statis/images/logo/vnPhoneTPT.png');
+  width: 70px;
+  height: 40px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.sprite-card-viettel3G_100_40 {
+  background: url('../statis/images/logo/viettel_3G_100_40.png');
+  width: 40px;
+  height: 45px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.sprite-card-scoi_100_40 {
+  background: url('../statis/images/logo/logo_scoin.png');
+  width: 70px;
+  height: 45px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.sprite-card-sohacoi_100_40 {
+  background: url('../statis/images/logo/logo_sohacoin.png');
+  width: 40px;
+  height: 45px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.sprite-card-funcard_100_40 {
+  background: url('../statis/images/logo/logo_funcard.png');
+  width: 40px;
+  height: 45px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.sprite-card-anpay_100_40 {
+  background: url('../statis/images/logo/logo_anpay.png');
+  width: 57px;
+  height: 40px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.sprite-card-appota_100_40 {
+  background: url('../statis/images/logo/logo_appota.png');
+  width: 100px;
+  height: 40px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.line-horizontal{
+  border-top: 1px solid #eaebec;
+  margin: 0;
+}
+.table > thead:first-child > tr:first-child > th {
+  background-color: #f5efea !important;
+}
+.primary_color {
+  color: #F58220;
+}
+
+.secondary_color {
+  color: red;
+}
+
+.reject_status {
+  padding: 2px 4px;
+  font-size: 10px;
+  background: #e36159;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.warning_status {
+  padding: 2px 4px;
+  font-size: 10px;
+  background: #ffa200;
+  border-radius: 30px;
+  color: #fff;
+}
+
+.check_status {
+  padding: 2px 4px;
+  font-size: 10px;
+  background: #38b449;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.status_number {
+  font-family: 'Open Sans', sans-serif;
+  background: #999;
+  padding: 4px 6px;
+  border-radius: 30px;
+  color: #fff !important;
+  font-size: 9px;
+}
+
+.action_icon a i {
+  font-size: 18px;
+  margin-top: 3px;
+  margin-left: 3px;
+  color: #f58220;
+}
+a i.fa-info-circle {
+  color: #7b7168;
+}
+
+a i.fa-pencil {
+  color: #0088CC;
+}
+
+.disabled-color{
+  background-color: gray !important;
+  cursor: not-allowed;
+}
+
+.enabled-color{
+  background-color: white !important;
+}
+
+
+/*paging table*/
+
+.datatables-footer{
+  padding-left:9px;
+  padding-right: 9px;
+}
+.pagination_footer {
+  float: right;
+}
+
+.dataTables_info_footer {
+  text-align: left;
+}
+
+div.dataTables_info {
+  padding-top: 26px;
+}
+
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  border-radius: 4px;
+  margin: 0;
+  margin-top: 15px;
+}
+
+.pagination>li {
+  display: inline;
+}
+html .pagination>li.active a, html.dark .pagination>li.active a {
+  background-color: #428bca;
+}
+
+.pagination>li:last-child>a, .pagination>li:last-child>span {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.pagination>li:first-child>a, .pagination>li:first-child>span {
+  margin-left: 0;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  border: 1px solid #ddd;
+}
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+  z-index: 2;
+  color: #fff;
+  background-color: #428bca;
+  border-color: #428bca;
+  cursor: default;
+}
+
+.pagination>li>a, .pagination>li>span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-left: none;
+}
+
+.not-role {
+  opacity: 0.5;
+}

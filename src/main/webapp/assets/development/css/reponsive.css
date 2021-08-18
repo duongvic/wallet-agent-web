@@ -1,0 +1,88 @@
+@media only screen and (max-width: 767px) {
+  /*button icon*/
+  .btn-circle {
+    width: 30px ;
+    height: 30px ;
+    padding: 6px 0px ;
+    border-radius: 15px ;
+    text-align: center ;
+    font-size: 12px ;
+    line-height: 1.42857 ;
+  }
+
+  /*end*/
+}
+
+  /* Small devices (tablets, 768px and up) */
+@media all  and (min-width: 768px) and (max-width: 1081px) {
+  .upload-image-kyc {
+    border-radius: 0;
+    margin-left: auto;
+    border: 0;
+    min-width: 160px;
+    min-height: 172px !important;
+    border: none !important;
+  }
+}
+
+/*!* Medium devices (desktops, 992px and up) *!*/
+/*@media screen and (min-width: 992px) {*/
+
+/*}*/
+
+/*!* Large devices (large desktops, 1200px and up) *!*/
+/*@media screen and (min-width: 1200px) {*/
+
+/*}*/
+
+/*multiselect*/
+@media (max-device-width: 768px) {
+  .multiselect-container > ul {
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .multiselect-container {
+    width: 100%;
+  }
+
+  .select2-container {
+    width: 100% !important;
+  }
+}
+/*end*/
+
+@media only screen and (max-width: 768px) {
+  .col-hidden{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+  .form-responsive {
+    width: 100%;
+  }
+  .time #reportrange span{
+    font-size: 13px;
+  }
+  .time #reportrange{
+    width: 100%;
+  }
+
+  .btn-group {
+    display: unset ;
+  }
+  .btn-group button {
+    width: 100% !important;
+  }
+
+  .multiselect-container {
+    width: 100% !important;
+  }
+
+  .dropify-wrapper.touch-fallback .dropify-preview {
+    position: absolute;
+    padding: 0;
+  }
+}

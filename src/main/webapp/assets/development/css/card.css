@@ -1,0 +1,126 @@
+.card-id {
+  /*width: 318px;*/
+  width: 354px;
+  min-height: 138px;
+  margin: 0 0;
+  background: #3ECAE8;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.action-card{
+  cursor: pointer;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  font-family: Roboto;
+  letter-spacing: 6.5px;
+  font-weight: 300;
+  line-height: 158px;
+}
+.logo-card-l img {
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  max-width: 36px;
+  height: auto;
+  border: 0 none;
+  border-radius: 1000px;
+  display: inline-block;
+  float: left;
+  /**
+  Center: text-align: center;
+  Right: text-align: right;
+  **/
+}
+
+.logo-card-r img{
+  cursor: pointer;
+  text-align: right;
+  width: 100%;
+  max-width: 36px;
+  height: auto;
+  border: 0 none;
+  border-radius: 1000px;
+  display: inline-block;float: right;
+  opacity: 0.3;
+  transition: all ease .5s ;
+}
+
+.logo-card-r img:hover{
+  opacity: 1;
+}
+
+
+.logo-card-center img {
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  max-width: 36px;
+  height: auto;
+  border: 0 none;
+  border-radius: 1000px;
+}
+
+.number-card {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: Roboto;
+  letter-spacing: 6.5px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-weight: 200;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.name-date {
+  display: inline-block;
+  width: 100%;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 300;
+}
+
+.name-date .name {
+  display: inline-block;
+  float: left;
+}
+
+.name-date .date {
+  display: inline-block;
+  float: right;
+}
+
+.number-card,
+.logo-card-r,
+.logo-card-l,
+.name-date:hover{
+  cursor: pointer;
+}
+
+.name-bank {
+  display: none;
+}
+.link-bank {
+  display: inline-flex;
+}
+
+.save-bank {
+  display: none;
+}
+
+.active-linkBank a {
+  text-decoration: underline;
+}
+.active-saveBank a {
+  text-decoration: none;
+}
+.text-fundIn{
+  color: #1beb87;
+}
+.item-responsive {
+  overflow: hidden;
+  height:29px;
+}

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0"
+	xmlns="http://java.sun.com/xml/ns/j2ee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee web-jsptaglibrary_2_0.xsd">
+	<description>ewallet functions library</description>
+	<display-name>ewallet functions library</display-name>
+	<tlib-version>1.0</tlib-version>
+	<short-name>ewallet</short-name>
+	<uri>https://admin.bizdev.zo-ta.com/service/jsp/jstl/functions</uri>
+	
+	<function>
+		<description>Code Telco transforms a vietnamese name</description>
+		<name>getNameTelco</name>
+		<function-class>vn.mog.ewallet.consumer.web.util.taglib.WalletTagLib</function-class>
+		<function-signature>String getNameTelco(java.lang.String)</function-signature>
+		<example>${ewallet:getNameTelco(testString)}</example>
+	</function>
+	
+	<function>
+		<description>Number transforms a vietnamess text</description>
+		<name>numberToText</name>
+		<function-class>vn.mog.ewallet.consumer.web.util.taglib.WalletTagLib</function-class>
+		<function-signature>String numberToText(java.lang.String)</function-signature>
+		<example>${ewallet:numberToText(number)}</example>
+	</function>
+
+	<function>
+		<description>Number format a vietnamess currency</description>
+		<name>formatNumber</name>
+		<function-class>vn.mog.ewallet.consumer.web.util.taglib.WalletTagLib</function-class>
+		<function-signature>String formatNumber(java.lang.String)</function-signature>
+		<example>${ewallet:formatNumber(number)}</example>
+	</function>
+
+	<function>
+		<description>Split Number format a vietnamess currency</description>
+		<name>splitNumber</name>
+		<function-class>vn.mog.ewallet.consumer.web.util.taglib.WalletTagLib</function-class>
+		<function-signature>String splitNumber(java.lang.String)</function-signature>
+		<example>${ewallet:splitNumber(number)}</example>
+	</function>
+
+	<function>
+		<description>Validate Phone</description>
+		<name>validatePhone</name>
+		<function-class>vn.mog.ewallet.consumer.web.util.taglib.WalletTagLib</function-class>
+		<function-signature>String validatePhone(java.lang.String)</function-signature>
+		<example>${ewallet:validatePhone(phoneNumber)}</example>
+	</function>
+
+
+  <function>
+    <description>Invoice type code name</description>
+    <name>getInvoiceTypeCodeName</name>
+    <function-class>vn.mog.ewallet.consumer.web.util.taglib.WalletTagLib</function-class>
+    <function-signature>String getInvoiceTypeCodeName(java.lang.String)</function-signature>
+    <example>${ewallet:getInvoiceTypeCodeName(invoiceTypeId)}</example>
+  </function>
+
+	<function>
+		<description>Txn Status Name</description>
+		<name>getTxnStatusName</name>
+		<function-class>vn.mog.ewallet.consumer.web.util.taglib.WalletTagLib</function-class>
+		<function-signature>String getTxnStatusName(java.lang.Integer)</function-signature>
+		<example>${ewallet:getTxnStatusName(txnStatusId)}</example>
+	</function>
+
+	<function>
+		<description>FundOrder Status Name</description>
+		<name>getFundOrderStatusName</name>
+		<function-class>vn.mog.ewallet.consumer.web.util.taglib.WalletTagLib</function-class>
+		<function-signature>String getFundOrderStatusName(java.lang.Integer)</function-signature>
+		<example>${ewallet:getFundOrderStatusName(status)}</example>
+	</function>
+
+
+	<function>
+		<description>Format Vn không dấu</description>
+		<name>comparable</name>
+		<function-class>vn.mog.ewallet.consumer.web.util.tools.VnUtil</function-class>
+		<function-signature>String comparable(java.lang.String)</function-signature>
+		<example>${ewallet:comparable(string)}</example>
+	</function>
+	comparable
+
+	<function>
+		<description>Encode phone</description>
+		<name>encodePhone</name>
+		<function-class>vn.mog.ewallet.consumer.web.util.taglib.WalletTagLib</function-class>
+		<function-signature>String encodePhone(java.lang.String)</function-signature>
+		<example>${ewallet:encodePhone(testString)}</example>
+	</function>
+
+	<function>
+		<description>Print Regex</description>
+		<name>printRegex</name>
+		<function-class>vn.mog.ewallet.consumer.web.util.taglib.WalletTagLib</function-class>
+		<function-signature>String printRegex(java.lang.String)</function-signature>
+		<example>${ewallet:printRegex(string)}</example>
+	</function>
+
+	<function>
+		<description>Encode email</description>
+		<name>encodeEmail</name>
+		<function-class>vn.mog.ewallet.consumer.web.util.taglib.WalletTagLib</function-class>
+		<function-signature>String encodeEmail(java.lang.String)</function-signature>
+		<example>${ewallet:encodeEmail(testString)}</example>
+	</function>
+</taglib>

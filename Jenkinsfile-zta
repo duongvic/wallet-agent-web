@@ -1,0 +1,53 @@
+node{
+    stage('SCM Checkout'){
+    	git branch: 'master', 
+		credentialsId: 'git-zta-infra-creds', 
+		url: 'https://infra_zota@bitbucket.org/ztaplatform/wallet-agent-web.git'
+    }
+    
+    stage('Mavent Build and Complile'){
+        def mvnHome = tool name: 'maven_3_6_3', type: 'maven'
+        def mvnCMD = "${mvnHome}/bin/mvn"
+        def unzipCMD = "unzip -q target/wallet-agent-web-1.0.0.war -d target/java-app"
+        def addHostsCMD ="cat hosts-zta > hosts"
+        
+        sh "${mvnCMD} clean package -DskipTests"
+        sh "${unzipCMD}"
+        sh "${addHostsCMD}"
+    }
+    
+    stage('Docker Build Image'){
+        sh 'docker build -t zopay/wallet-agent-web-zta:1.0.0 --rm=true .'
+    }
+    
+    stage("Push Docker Image"){
+    	withCredentials([string(credentialsId: 'docker-hub-zopay-pwd', variable: 'dockerHubPwd')]) {
+    		sh "echo ${dockerHubPwd} | docker login --username zopay --password-stdin"
+		}
+		sh 'docker push zopay/wallet-agent-web-zta:1.0.0'
+    }
+    
+    stage("Remove Old Container on ZTA Server"){
+        try{
+            def dockrStop = "docker stop wallet-agent-web"
+            def dockrRm = "docker rm -f wallet-agent-web"
+            def dockrRmImage = "docker rmi  zopay/wallet-agent-web-zta:1.0.0"
+            
+            sh "${dockrStop}"
+            sh "${dockrRm}"
+            sh "${dockrRmImage}"
+        }catch(e){
+             echo "container wallet-agent-web-zta not found or runing" 
+        }
+        
+    }
+    
+    stage("Run Container on ZTA Server"){
+        def dockrRun ='docker run -d -p 11104:11104 --network "host" --name "wallet-agent-web" \
+            -v /opt/ewallet:/opt/ewallet \
+			-e SPRING_PROFILES_ACTIVE="zta" \
+			-e JAVA_OPTS="-Xms1024m -Xmx2048m -Xmn256m -XX:SurvivorRatio=8" \
+			zopay/wallet-agent-web-zta:1.0.0'
+        sh "${dockrRun}"
+    }
+}

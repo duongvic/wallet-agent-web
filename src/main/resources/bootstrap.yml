@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: wallet-agent-web
+  jmx:
+    default-domain: ${spring.application.name}
+  profiles:
+    active: local

@@ -1,0 +1,28 @@
+mvn clean package -DskipTests
+unzip -q target/wallet-agent-web-1.0.0.war -d target/java-app
+
+docker ps -a
+
+docker stop wallet-agent-web
+
+docker rm -f wallet-agent-web
+
+docker images -a | grep "wallet-agent-web" | awk '{print $3}' | xargs docker rmi
+
+docker build -t zopay/wallet-agent-web:1.0.0 --rm=true .
+
+docker run -d -p 11104:11104 --network "host" --name "wallet-agent-web" \
+-e "SPRING_PROFILES_ACTIVE=local" \
+-e JAVA_OPTS="-Xms1024m -Xmx2048m -Xmn256m -XX:SurvivorRatio=8" \
+zopay/wallet-agent-web:1.0.0
+
+docker logs wallet-agent-web
+
+docker inspect wallet-agent-web
+
+
+docker run -d -p 11104:11104 --network "host" --name "wallet-agent-web" \
+-v /opt/ewallet:/opt/ewallet \
+-e "SPRING_PROFILES_ACTIVE=local" \
+-e JAVA_OPTS="-Xms1024m -Xmx2048m -Xmn256m -XX:SurvivorRatio=8" \
+zopay/wallet-agent-web:1.0.0

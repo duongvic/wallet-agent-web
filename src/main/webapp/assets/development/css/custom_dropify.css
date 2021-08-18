@@ -1,0 +1,30 @@
+.dropify-wrapper {
+  border-radius: 0;
+  position: relative;
+  display: block;
+  height: 200px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 0 !important;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #76838f;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fff;
+  background-image: none;
+  border: none !important;
+}
+
+.dropify-errors-container {
+  margin-top: 30px;
+}
+
+.dropify-wrapper .dropify-message {
+  position: relative;
+  top: 35%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

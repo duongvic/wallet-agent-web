@@ -1,0 +1,197 @@
+/*thẻ ngân hàng*/
+.item-bank {
+  width: 16% !important;
+  display: inline-block;  !important;
+  float: none; !important;
+  padding-left: 2.5px !important;
+  padding-right: 2.5px !important;
+}
+
+/*end*/
+
+/*thẻ bank*/
+.item-card {
+  /*width: 20% !important;*/
+  display: inline-block;  !important;
+  float: none;  !important;
+  padding-left: 2.5px !important;
+  padding-right: 2.5px !important;
+}
+
+.phoneCharge-choose {
+  position: relative !important;
+  display: block !important;
+  margin-bottom: 10px !important;
+}
+
+.phoneCharge-choose:hover {
+  opacity: 0.6;
+}
+
+.phoneCharge-choose:active {
+  /*top: 1px;*/
+  /*opacity: 1;*/
+  /*content: "" !important;*/
+  /*position: absolute !important;*/
+  /*!* z-index: 1 !important; *!*/
+  /*left: 50% !important;*/
+  /*bottom: -8px !important;*/
+  /*width: 18px !important;*/
+  /*height: 18px !important;*/
+  /*margin-left: -8px !important;*/
+  /*background-size: contain !important;*/
+  /*opacity: 0 !important;*/
+  /*-webkit-transform: scale(0.1) !important;*/
+  /*-ms-transform: scale(0.1) !important;*/
+  /*transform: scale(0.1) !important;*/
+  /*-webkit-transition: all 0.2s ease-out !important;*/
+  /*-o-transition: all 0.2s ease-out !important;*/
+  /*transition: all 0.2s ease-out !important;*/
+  /*background: url(data:../images/radioCheck.png) no-repeat 0 0 !important;*/
+
+
+
+}
+
+.phoneCharge-choose label {
+  padding: 5px 5px 5px !important;
+  display: block !important;
+  text-align: center !important;
+  border: 1px solid coral;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  -webkit-transition: all 0.2s ease-in !important;
+  -o-transition: all 0.2s ease-in !important;
+  transition: all 0.2s ease-in !important;
+}
+
+.phoneCharge-choose .item-badge--5 {
+  background: none !important;
+  border-left: 39px solid transparent;
+  border-top: 32px solid orangered !important;
+}
+
+.phoneCharge-choose .item-badge--15 {
+  background: none !important;
+  border-left: 39px solid transparent !important;
+  border-top: 32px solid blueviolet !important;
+}
+
+.phoneCharge-choose .item-badge {
+  position: absolute !important;
+  z-index: 1 !important;
+  top: 0 !important;
+  right: 0 !important;
+
+}
+
+.phoneCharge-choose label * {
+  cursor: auto !important;
+}
+
+.phoneCharge-choose label img {
+  display: inline-block !important;
+  max-width: 100% !important;
+  vertical-align: middle !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+  border-radius: 5px !important;
+}
+
+.phoneCharge-choose .item-badge .item-badge-content {
+  -ms-transform: rotate(42deg) !important;
+  -o-transform: rotate(42deg) !important;
+  -webkit-transform: rotate(42deg) !important;
+  /* transform: rotate(42deg) !important; */
+  -ms-transform-origin: 50% 100% !important;
+  -o-transform-origin: 50% 100% !important;
+  -webkit-transform-origin: 50% 100% !important;
+  transform-origin: 50% 50% !important;
+  font-size: 12px !important;
+  color: #fff !important;
+  text-align: center !important;
+  display: block !important;
+  position: absolute !important;
+  right: 0px !important;
+  top: -31px !important;
+  z-index: 2 !important;
+}
+
+.phoneCharge-choose label::before {
+  /*content: "" !important;*/
+  /*position: absolute !important;*/
+  /*!* z-index: 1 !important; *!*/
+  /*left: 50% !important;*/
+  /*bottom: -8px !important;*/
+  /*width: 18px !important;*/
+  /*height: 18px !important;*/
+  /*margin-left: -8px !important;*/
+  /*background-size: contain !important;*/
+  /*opacity: 0 !important;*/
+  /*-webkit-transform: scale(0.1) !important;*/
+  /*-ms-transform: scale(0.1) !important;*/
+  /*transform: scale(0.1) !important;*/
+  /*-webkit-transition: all 0.2s ease-out !important;*/
+  /*-o-transition: all 0.2s ease-out !important;*/
+  /*transition: all 0.2s ease-out !important;*/
+  /*background: url(../images/avatar.jpg) no-repeat 0 0 !important;*/
+  /*background-color: red !important;*/
+}
+
+.current {
+  /*background: url(data:images/radioCheck.jpg) no-repeat 0 0 !important;*/
+  background-color: #ff6d3f !important
+  /*border: 2px solid #0b25e0 !important*/
+}
+.phoneCharge-choose label .phoneCharge-price {
+  display: block !important;
+  color: #e5101d !important;
+  font-size: 16px !important;
+  font-weight: normal !important;
+  -webkit-transition: color 0.15s ease-in !important;
+  -o-transition: color 0.15s ease-in !important;
+  transition: color 0.15s ease-in !important;
+}
+
+.phoneCharge-choose label .curr {
+  display: block !important;
+  font-size: 10px !important;
+  color: #646464 !important;
+  -webkit-transition: color 0.15s ease-in !important;
+  -o-transition: color 0.15s ease-in !important;
+  transition: color 0.15s ease-in !important;
+  padding-top: 5px !important;
+}
+
+/*.phoneCharge-choose .item-badge::after {*/
+/*position: absolute !important;*/
+/*right: 0 !important;*/
+/*top: 0 !important;*/
+/*height: 40px !important;*/
+/*width: 40px !important;*/
+/*-ms-transform: rotate(360deg) !important;*/
+/*-o-transform: rotate(360deg) !important;*/
+/*-webkit-transform: rotate(360deg) !important;*/
+/*transform: rotate(360deg) !important;*/
+/*background-size: 100% !important;*/
+/*background-repeat: no-repeat !important;*/
+/*content: '' !important;*/
+/*display: inline-block !important;*/
+/*}*/
+.phoneCharge-b-content {
+  white-space: nowrap !important;
+}
+
+.text-account{
+  color: #343a40;
+  font-weight: 500;
+}
+

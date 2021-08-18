@@ -1,0 +1,961 @@
+
+.nav {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none
+}
+
+.nav > li {
+  position: relative;
+  display: block
+}
+
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eee
+}
+
+.nav > li.disabled > a {
+  color: #777
+}
+
+.nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
+  color: #777;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: not-allowed
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background-color: #eee;
+  border-color: #428bca
+}
+
+.nav .nav-divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5
+}
+
+.nav > li > a > img {
+  max-width: none
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #ddd
+}
+
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px
+}
+
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0
+}
+
+.nav-tabs > li > a:hover {
+  border-color: #eee #eee #ddd
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+  cursor: default
+}
+
+.nav-tabs.nav-justified {
+  width: 100%;
+  border-bottom: 0
+}
+
+.nav-tabs.nav-justified > li {
+  float: none
+}
+
+.nav-tabs.nav-justified > li > a {
+  text-align: center;
+  margin-bottom: 5px
+}
+
+.nav-tabs.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto
+}
+
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified > li {
+    display: table-cell;
+    width: 1%
+  }
+
+  .nav-tabs.nav-justified > li > a {
+    margin-bottom: 0
+  }
+}
+
+.nav-tabs.nav-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px
+}
+
+.nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus {
+  border: 1px solid #ddd
+}
+
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified > li > a {
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px 4px 0 0
+  }
+
+  .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus {
+    border-bottom-color: #fff
+  }
+}
+
+.nav-pills > li {
+  float: left
+}
+
+.nav-pills > li > a {
+  border-radius: 4px
+}
+
+.nav-pills > li + li {
+  margin-left: 2px
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #428bca
+}
+
+.nav-stacked > li {
+  float: none
+}
+
+.nav-stacked > li + li {
+  margin-top: 2px;
+  margin-left: 0
+}
+
+.nav-justified {
+  width: 100%
+}
+
+.nav-justified > li {
+  float: none
+}
+
+.nav-justified > li > a {
+  text-align: center;
+  margin-bottom: 5px
+}
+
+.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto
+}
+
+@media (min-width: 768px) {
+  .nav-justified > li {
+    display: table-cell;
+    width: 1%
+  }
+
+  .nav-justified > li > a {
+    margin-bottom: 0
+  }
+}
+
+.nav-tabs-justified {
+  border-bottom: 0
+}
+
+.nav-tabs-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px
+}
+
+.nav-tabs-justified > .active > a, .nav-tabs-justified > .active > a:hover, .nav-tabs-justified > .active > a:focus {
+  border: 1px solid #ddd
+}
+
+@media (min-width: 768px) {
+  .nav-tabs-justified > li > a {
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px 4px 0 0
+  }
+
+  .nav-tabs-justified > .active > a, .nav-tabs-justified > .active > a:hover, .nav-tabs-justified > .active > a:focus {
+    border-bottom-color: #fff
+  }
+}
+
+.tab-content > .tab-pane {
+  display: none;
+  visibility: hidden
+}
+
+.tab-content > .active {
+  display: block;
+  visibility: visible
+}
+
+.nav-tabs .dropdown-menu {
+  margin-top: -1px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0
+}
+
+.tabs {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  margin-bottom: 35px
+}
+
+.nav-tabs {
+  margin: 0;
+  font-size: 0
+}
+
+.nav-tabs li {
+  display: inline-block;
+  float: none
+}
+
+.nav-tabs li:last-child a {
+  margin-right: 0
+}
+
+.nav-tabs li a {
+  border-radius: 5px 5px 0 0;
+  font-size: 13px;
+  font-size: 1.3rem;
+  margin-right: 1px
+}
+
+.nav-tabs li a, .nav-tabs li a:hover {
+  background: #f4f4f4;
+  border-bottom: 0;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-top: 3px solid #ddd;
+  color: #555
+}
+
+.nav-tabs li a:hover {
+  border-bottom-color: transparent;
+  border-top: 3px solid #555;
+  box-shadow: none
+}
+
+.nav-tabs li a:active, .nav-tabs li a:focus {
+  border-bottom: 0
+}
+
+.nav-tabs li.active a, .nav-tabs li.active a:hover, .nav-tabs li.active a:focus {
+  background: #fff;
+  border-left-color: #eee;
+  border-right-color: #eee;
+  border-top: 3px solid #555;
+  color: #555
+}
+
+.tab-content {
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.04);
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-top: 0;
+  padding: 15px
+}
+
+.tab-content .panel-footer {
+  margin: -15px;
+  margin-top: 15px
+}
+
+.nav-tabs.nav-justified {
+  margin-bottom: -1px;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent
+}
+
+.nav-tabs.nav-justified li {
+  margin-bottom: 0
+}
+
+.nav-tabs.nav-justified li:first-child a, .nav-tabs.nav-justified li:first-child a:hover {
+  border-radius: 5px 0 0 0;
+  border-left: none
+}
+
+.nav-tabs.nav-justified li:last-child a, .nav-tabs.nav-justified li:last-child a:hover {
+  border-radius: 0 5px 0 0;
+  border-right: 0
+}
+
+.nav-tabs.nav-justified li a {
+  border-left: none;
+  border-right: 0;
+  border-bottom: 1px solid #DDD;
+  border-radius: 0;
+  margin-right: 0
+}
+
+.nav-tabs.nav-justified li a:hover, .nav-tabs.nav-justified li a:focus {
+  border-bottom: 1px solid #DDD;
+  border-left: none;
+  border-right: 0
+}
+
+.nav-tabs.nav-justified li.active a, .nav-tabs.nav-justified li.active a:hover, .nav-tabs.nav-justified li.active a:focus {
+  background: #fff;
+  border-left-color: #eee;
+  border-right-color: #eee;
+  border-top: 3px solid #555;
+  color: #555
+}
+
+.nav-tabs.nav-justified li.active a {
+  border-bottom: 1px solid #FFF
+}
+
+.nav-tabs.nav-justified li.active a, .nav-tabs.nav-justified li.active a:hover, .nav-tabs.nav-justified li.active a:focus {
+  border-top-color: #555;
+  border-top-width: 3px;
+  border-left: none;
+  border-right: 0
+}
+
+.nav-tabs.nav-justified li.active a:hover {
+  border-bottom: 1px solid #FFF
+}
+
+.tabs.tabs-bottom .tab-content {
+  border-radius: 4px 4px 0 0;
+  border-bottom: 0;
+  border-top: 1px solid #eee
+}
+
+.tabs.tabs-bottom .nav-tabs {
+  border-bottom: 0;
+  border-top: 1px solid #ddd
+}
+
+.tabs.tabs-bottom .nav-tabs li {
+  margin-bottom: 0;
+  margin-top: -1px
+}
+
+.tabs.tabs-bottom .nav-tabs li:last-child a {
+  margin-right: 0
+}
+
+.tabs.tabs-bottom .nav-tabs li a {
+  border-radius: 0 0 5px 5px;
+  font-size: 13px;
+  font-size: 1.3rem;
+  margin-right: 1px
+}
+
+.tabs.tabs-bottom .nav-tabs li a, .tabs.tabs-bottom .nav-tabs li a:hover, .tabs.tabs-bottom .nav-tabs li a:focus, .tabs.tabs-bottom .nav-tabs li a:active {
+  border-bottom: 3px solid #ddd;
+  border-top: 1px solid #ddd
+}
+
+.tabs.tabs-bottom .nav-tabs li a:hover, .tabs.tabs-bottom .nav-tabs li a:focus, .tabs.tabs-bottom .nav-tabs li a:active {
+  border-bottom: 3px solid #555;
+  border-top: 1px solid #ddd
+}
+
+.tabs.tabs-bottom .nav-tabs li.active a, .tabs.tabs-bottom .nav-tabs li.active a:hover, .tabs.tabs-bottom .nav-tabs li.active a:focus {
+  border-bottom: 3px solid #555;
+  border-top-color: transparent
+}
+
+.tabs.tabs-bottom .nav.nav-tabs.nav-justified {
+  border-top: 0
+}
+
+.tabs.tabs-bottom .nav.nav-tabs.nav-justified li a {
+  margin-right: 0;
+  border-top-color: #ddd
+}
+
+.tabs.tabs-bottom .nav.nav-tabs.nav-justified li:first-child a {
+  border-radius: 0 0 0 5px
+}
+
+.tabs.tabs-bottom .nav.nav-tabs.nav-justified li:last-child a {
+  margin-right: 0;
+  border-radius: 0 0 5px 0
+}
+
+.tabs.tabs-bottom .nav.nav-tabs.nav-justified li.active a, .tabs.tabs-bottom .nav.nav-tabs.nav-justified li.active a:hover, .tabs.tabs-bottom .nav.nav-tabs.nav-justified li.active a:focus {
+  border-top-color: transparent
+}
+
+.tabs-vertical {
+  display: table;
+  width: 100%
+}
+
+.tabs-vertical .tab-content {
+  display: table-cell;
+  vertical-align: top
+}
+
+.tabs-vertical .nav-tabs {
+  border-bottom: 0;
+  display: table-cell;
+  height: 100%;
+  float: none;
+  padding: 0;
+  vertical-align: top
+}
+
+.tabs-vertical .nav-tabs > li {
+  display: block
+}
+
+.tabs-vertical .nav-tabs > li a {
+  border-radius: 0;
+  display: block;
+  padding-top: 10px
+}
+
+.tabs-vertical .nav-tabs > li a, .tabs-vertical .nav-tabs > li a:hover, .tabs-vertical .nav-tabs > li a:focus {
+  border-bottom: 0;
+  border-top: 0
+}
+
+.tabs-vertical .nav-tabs > li.active a, .tabs-vertical .nav-tabs > li.active a:hover, .tabs-vertical .nav-tabs > li.active:focus {
+  border-top: 0
+}
+
+.tabs-left .tab-content {
+  border-radius: 0 5px 5px 5px;
+  border-left: none
+}
+
+.tabs-left .nav-tabs > li {
+  margin-right: -1px
+}
+
+.tabs-left .nav-tabs > li:first-child a {
+  border-radius: 5px 0 0 0
+}
+
+.tabs-left .nav-tabs > li:last-child a {
+  border-radius: 0 0 0 5px
+}
+
+.tabs-left .nav-tabs > li a {
+  border-right: 1px solid #eee;
+  border-left: 3px solid #ddd;
+  margin-right: 1px;
+  margin-left: -3px
+}
+
+.tabs-left .nav-tabs > li a:hover {
+  border-left-color: #555
+}
+
+.tabs-left .nav-tabs > li.active a, .tabs-left .nav-tabs > li.active a:hover, .tabs-left .nav-tabs > li.active a:focus {
+  border-left: 3px solid #555;
+  border-right-color: #FFF
+}
+
+.tabs-right .tab-content {
+  border-radius: 5px 0 5px 5px;
+  border-right: 0
+}
+
+.tabs-right .nav-tabs > li {
+  margin-left: -1px
+}
+
+.tabs-right .nav-tabs > li:first-child a {
+  border-radius: 0 5px 0 0
+}
+
+.tabs-right .nav-tabs > li:last-child a {
+  border-radius: 0 0 5px 0
+}
+
+.tabs-right .nav-tabs > li a {
+  border-right: 3px solid #ddd;
+  border-left: 1px solid #eee;
+  margin-right: 1px;
+  margin-left: 1px
+}
+
+.tabs-right .nav-tabs > li a:hover {
+  border-right-color: #555
+}
+
+.tabs-right .nav-tabs > li.active a, .tabs-right .nav-tabs > li.active a:hover, .tabs-right .nav-tabs > li.active a:focus {
+  border-right: 3px solid #555;
+  border-left: 1px solid #FFF
+}
+
+html.dark .tabs .nav-tabs li a, html.dark .tabs .nav-tabs li a:focus {
+  border-top-color: #282d36;
+  border-left-color: #282d36;
+  border-right-color: #282d36;
+  background: #282d36
+}
+
+html.dark .tabs .nav-tabs li a:hover {
+  border-top-color: #808697
+}
+
+html.dark .tabs .nav-tabs li.active a, html.dark .tabs .nav-tabs li.active a:hover, html.dark .tabs .nav-tabs li.active a:focus {
+  border-top-color: #808697
+}
+
+html.dark .tabs .nav-tabs.nav-justified {
+  border-left-width: 0;
+  border-right-width: 0;
+  border-left-color: transparent;
+  border-right-color: transparent
+}
+
+html.dark .tabs .nav-tabs.nav-justified li a, html.dark .tabs .nav-tabs.nav-justified li a:hover, html.dark .tabs .nav-tabs.nav-justified li a:focus {
+  border-bottom-color: #282d36
+}
+
+html.dark .tabs.tabs-left .nav-tabs > li a, html.dark .tabs.tabs-right .nav-tabs > li a {
+  background: #282d36;
+  border-left-color: #282d36;
+  border-right-color: #282d36
+}
+
+html.dark .tabs.tabs-left .nav-tabs > li:last-child a, html.dark .tabs.tabs-right .nav-tabs > li:last-child a {
+  border-bottom-color: #282d36
+}
+
+html.dark .tabs.tabs-left .nav-tabs > li.active a, html.dark .tabs.tabs-left .nav-tabs > li.active a:hover, html.dark .tabs.tabs-left .nav-tabs > li.active a:focus {
+  border-left: 3px solid #555
+}
+
+html.dark .tabs.tabs-left .nav-tabs > li a:hover {
+  border-left: 3px solid #555
+}
+
+html.dark .tabs .nav-tabs {
+  border-color: #282d36
+}
+
+html.dark .tabs .nav-tabs li.active a, html.dark .tabs .nav-tabs li.active a:hover, html.dark .tabs .nav-tabs li.active a:focus, html.dark .tabs .nav-tabs.nav-justified li.active a, html.dark .tabs .nav-tabs.nav-justified li.active a:hover, html.dark .tabs .nav-tabs.nav-justified li.active a:focus {
+  background: #2e353e;
+  border-left-color: #2e353e;
+  border-right-color: #2e353e
+}
+
+html.dark .tabs .nav-tabs.nav-justified li.active a {
+  border-bottom-color: #2e353e
+}
+
+html.dark .tabs.tabs-vertical {
+  border-top-color: #2e353e
+}
+
+html.dark .tabs.tabs-bottom .nav-tabs li a, html.dark .tabs.tabs-bottom .nav-tabs li a:focus {
+  border-bottom-color: #282d36;
+  border-top-color: #2e353e
+}
+
+html.dark .tabs.tabs-bottom .nav-tabs li a:hover {
+  border-bottom-color: #808697;
+  border-top-color: #2e353e
+}
+
+html.dark .tabs.tabs-bottom .nav-tabs li.active a, html.dark .tabs.tabs-bottom .nav-tabs li.active a:hover, html.dark .tabs.tabs-bottom .nav-tabs li.active a:focus {
+  border-bottom-color: #808697;
+  border-top-color: #2e353e
+}
+
+html.dark .tabs .tab-content {
+  background: #2e353e;
+  border-color: #2e353e
+}
+
+html.dark .tabs-primary.tabs-bottom .nav-tabs li a, html.dark .tabs-primary.tabs-bottom .nav-tabs li a:hover, html.dark .tabs-primary.tabs-bottom .nav-tabs li a:focus, html.dark .tabs-primary.tabs-bottom .nav-tabs.nav-justified li a, html.dark .tabs-primary.tabs-bottom .nav-tabs.nav-justified li a:hover, html.dark .tabs-primary.tabs-bottom .nav-tabs.nav-justified li a:focus {
+  border-top-color: #2e353e !important
+}
+
+html.dark .nav-tabs li.active a, html.dark .nav-tabs li.active a:hover, html.dark .nav-tabs li.active a:focus, html.dark .nav-tabs li a {
+  color: #808697
+}
+
+html.dark .tab-content {
+  background: #2e353e;
+  border-color: #1d2127
+}
+
+html body .tabs-primary .nav-tabs li a, html body .tabs-primary .nav-tabs li a:hover, html body .tabs-primary .nav-tabs.nav-justified li a, html body .tabs-primary .nav-tabs.nav-justified li a:hover, html.dark body .tabs-primary .nav-tabs li a, html.dark body .tabs-primary .nav-tabs li a:hover, html.dark body .tabs-primary .nav-tabs.nav-justified li a, html.dark body .tabs-primary .nav-tabs.nav-justified li a:hover {
+  color: #ccc
+}
+
+html body .tabs-primary .nav-tabs li a:hover, html body .tabs-primary .nav-tabs.nav-justified li a:hover, html.dark body .tabs-primary .nav-tabs li a:hover, html.dark body .tabs-primary .nav-tabs.nav-justified li a:hover {
+  border-top-color: #ccc
+}
+
+html body .tabs-primary .nav-tabs li.active a, html body .tabs-primary .nav-tabs li.active a:hover, html body .tabs-primary .nav-tabs li.active a:focus, html body .tabs-primary .nav-tabs.nav-justified li.active a, html body .tabs-primary .nav-tabs.nav-justified li.active a:hover, html body .tabs-primary .nav-tabs.nav-justified li.active a:focus, html.dark body .tabs-primary .nav-tabs li.active a, html.dark body .tabs-primary .nav-tabs li.active a:hover, html.dark body .tabs-primary .nav-tabs li.active a:focus, html.dark body .tabs-primary .nav-tabs.nav-justified li.active a, html.dark body .tabs-primary .nav-tabs.nav-justified li.active a:hover, html.dark body .tabs-primary .nav-tabs.nav-justified li.active a:focus {
+  border-top-color: #ccc;
+  color: #ccc
+}
+
+html body .tabs-primary.tabs-bottom .nav-tabs li a:hover, html body .tabs-primary.tabs-bottom .nav-tabs.nav-justified li a:hover, html.dark body .tabs-primary.tabs-bottom .nav-tabs li a:hover, html.dark body .tabs-primary.tabs-bottom .nav-tabs.nav-justified li a:hover {
+  border-bottom-color: #ccc
+}
+
+html body .tabs-primary.tabs-bottom .nav-tabs li.active a, html body .tabs-primary.tabs-bottom .nav-tabs li.active a:hover, html body .tabs-primary.tabs-bottom .nav-tabs li.active a:focus, html body .tabs-primary.tabs-bottom .nav-tabs.nav-justified li.active a, html body .tabs-primary.tabs-bottom .nav-tabs.nav-justified li.active a:hover, html body .tabs-primary.tabs-bottom .nav-tabs.nav-justified li.active a:focus, html.dark body .tabs-primary.tabs-bottom .nav-tabs li.active a, html.dark body .tabs-primary.tabs-bottom .nav-tabs li.active a:hover, html.dark body .tabs-primary.tabs-bottom .nav-tabs li.active a:focus, html.dark body .tabs-primary.tabs-bottom .nav-tabs.nav-justified li.active a, html.dark body .tabs-primary.tabs-bottom .nav-tabs.nav-justified li.active a:hover, html.dark body .tabs-primary.tabs-bottom .nav-tabs.nav-justified li.active a:focus {
+  border-bottom-color: #ccc
+}
+
+html body .tabs-primary.tabs-vertical.tabs-left li a:hover, html.dark body .tabs-primary.tabs-vertical.tabs-left li a:hover {
+  border-left-color: #ccc
+}
+
+html body .tabs-primary.tabs-vertical.tabs-left li.active a, html body .tabs-primary.tabs-vertical.tabs-left li.active a:hover, html body .tabs-primary.tabs-vertical.tabs-left li.active a:focus, html.dark body .tabs-primary.tabs-vertical.tabs-left li.active a, html.dark body .tabs-primary.tabs-vertical.tabs-left li.active a:hover, html.dark body .tabs-primary.tabs-vertical.tabs-left li.active a:focus {
+  border-left-color: #ccc
+}
+
+html body .tabs-primary.tabs-vertical.tabs-right li a:hover, html.dark body .tabs-primary.tabs-vertical.tabs-right li a:hover {
+  border-right-color: #ccc
+}
+
+html body .tabs-primary.tabs-vertical.tabs-right li.active a, html body .tabs-primary.tabs-vertical.tabs-right li.active a:hover, html body .tabs-primary.tabs-vertical.tabs-right li.active a:focus, html.dark body .tabs-primary.tabs-vertical.tabs-right li.active a, html.dark body .tabs-primary.tabs-vertical.tabs-right li.active a:hover, html.dark body .tabs-primary.tabs-vertical.tabs-right li.active a:focus {
+  border-right-color: #ccc
+}
+
+html body .tabs-success .nav-tabs li a, html body .tabs-success .nav-tabs li a:hover, html body .tabs-success .nav-tabs.nav-justified li a, html body .tabs-success .nav-tabs.nav-justified li a:hover, html.dark body .tabs-success .nav-tabs li a, html.dark body .tabs-success .nav-tabs li a:hover, html.dark body .tabs-success .nav-tabs.nav-justified li a, html.dark body .tabs-success .nav-tabs.nav-justified li a:hover {
+  color: #47a447
+}
+
+html body .tabs-success .nav-tabs li a:hover, html body .tabs-success .nav-tabs.nav-justified li a:hover, html.dark body .tabs-success .nav-tabs li a:hover, html.dark body .tabs-success .nav-tabs.nav-justified li a:hover {
+  border-top-color: #47a447
+}
+
+html body .tabs-success .nav-tabs li.active a, html body .tabs-success .nav-tabs li.active a:hover, html body .tabs-success .nav-tabs li.active a:focus, html body .tabs-success .nav-tabs.nav-justified li.active a, html body .tabs-success .nav-tabs.nav-justified li.active a:hover, html body .tabs-success .nav-tabs.nav-justified li.active a:focus, html.dark body .tabs-success .nav-tabs li.active a, html.dark body .tabs-success .nav-tabs li.active a:hover, html.dark body .tabs-success .nav-tabs li.active a:focus, html.dark body .tabs-success .nav-tabs.nav-justified li.active a, html.dark body .tabs-success .nav-tabs.nav-justified li.active a:hover, html.dark body .tabs-success .nav-tabs.nav-justified li.active a:focus {
+  border-top-color: #47a447;
+  color: #47a447
+}
+
+html body .tabs-success.tabs-bottom .nav-tabs li a:hover, html body .tabs-success.tabs-bottom .nav-tabs.nav-justified li a:hover, html.dark body .tabs-success.tabs-bottom .nav-tabs li a:hover, html.dark body .tabs-success.tabs-bottom .nav-tabs.nav-justified li a:hover {
+  border-bottom-color: #47a447
+}
+
+html body .tabs-success.tabs-bottom .nav-tabs li.active a, html body .tabs-success.tabs-bottom .nav-tabs li.active a:hover, html body .tabs-success.tabs-bottom .nav-tabs li.active a:focus, html body .tabs-success.tabs-bottom .nav-tabs.nav-justified li.active a, html body .tabs-success.tabs-bottom .nav-tabs.nav-justified li.active a:hover, html body .tabs-success.tabs-bottom .nav-tabs.nav-justified li.active a:focus, html.dark body .tabs-success.tabs-bottom .nav-tabs li.active a, html.dark body .tabs-success.tabs-bottom .nav-tabs li.active a:hover, html.dark body .tabs-success.tabs-bottom .nav-tabs li.active a:focus, html.dark body .tabs-success.tabs-bottom .nav-tabs.nav-justified li.active a, html.dark body .tabs-success.tabs-bottom .nav-tabs.nav-justified li.active a:hover, html.dark body .tabs-success.tabs-bottom .nav-tabs.nav-justified li.active a:focus {
+  border-bottom-color: #47a447
+}
+
+html body .tabs-success.tabs-vertical.tabs-left li a:hover, html.dark body .tabs-success.tabs-vertical.tabs-left li a:hover {
+  border-left-color: #47a447
+}
+
+html body .tabs-success.tabs-vertical.tabs-left li.active a, html body .tabs-success.tabs-vertical.tabs-left li.active a:hover, html body .tabs-success.tabs-vertical.tabs-left li.active a:focus, html.dark body .tabs-success.tabs-vertical.tabs-left li.active a, html.dark body .tabs-success.tabs-vertical.tabs-left li.active a:hover, html.dark body .tabs-success.tabs-vertical.tabs-left li.active a:focus {
+  border-left-color: #47a447
+}
+
+html body .tabs-success.tabs-vertical.tabs-right li a:hover, html.dark body .tabs-success.tabs-vertical.tabs-right li a:hover {
+  border-right-color: #47a447
+}
+
+html body .tabs-success.tabs-vertical.tabs-right li.active a, html body .tabs-success.tabs-vertical.tabs-right li.active a:hover, html body .tabs-success.tabs-vertical.tabs-right li.active a:focus, html.dark body .tabs-success.tabs-vertical.tabs-right li.active a, html.dark body .tabs-success.tabs-vertical.tabs-right li.active a:hover, html.dark body .tabs-success.tabs-vertical.tabs-right li.active a:focus {
+  border-right-color: #47a447
+}
+
+html body .tabs-warning .nav-tabs li a, html body .tabs-warning .nav-tabs li a:hover, html body .tabs-warning .nav-tabs.nav-justified li a, html body .tabs-warning .nav-tabs.nav-justified li a:hover, html.dark body .tabs-warning .nav-tabs li a, html.dark body .tabs-warning .nav-tabs li a:hover, html.dark body .tabs-warning .nav-tabs.nav-justified li a, html.dark body .tabs-warning .nav-tabs.nav-justified li a:hover {
+  color: #ed9c28
+}
+
+html body .tabs-warning .nav-tabs li a:hover, html body .tabs-warning .nav-tabs.nav-justified li a:hover, html.dark body .tabs-warning .nav-tabs li a:hover, html.dark body .tabs-warning .nav-tabs.nav-justified li a:hover {
+  border-top-color: #ed9c28
+}
+
+html body .tabs-warning .nav-tabs li.active a, html body .tabs-warning .nav-tabs li.active a:hover, html body .tabs-warning .nav-tabs li.active a:focus, html body .tabs-warning .nav-tabs.nav-justified li.active a, html body .tabs-warning .nav-tabs.nav-justified li.active a:hover, html body .tabs-warning .nav-tabs.nav-justified li.active a:focus, html.dark body .tabs-warning .nav-tabs li.active a, html.dark body .tabs-warning .nav-tabs li.active a:hover, html.dark body .tabs-warning .nav-tabs li.active a:focus, html.dark body .tabs-warning .nav-tabs.nav-justified li.active a, html.dark body .tabs-warning .nav-tabs.nav-justified li.active a:hover, html.dark body .tabs-warning .nav-tabs.nav-justified li.active a:focus {
+  border-top-color: #ed9c28;
+  color: #ed9c28
+}
+
+html body .tabs-warning.tabs-bottom .nav-tabs li a:hover, html body .tabs-warning.tabs-bottom .nav-tabs.nav-justified li a:hover, html.dark body .tabs-warning.tabs-bottom .nav-tabs li a:hover, html.dark body .tabs-warning.tabs-bottom .nav-tabs.nav-justified li a:hover {
+  border-bottom-color: #ed9c28
+}
+
+html body .tabs-warning.tabs-bottom .nav-tabs li.active a, html body .tabs-warning.tabs-bottom .nav-tabs li.active a:hover, html body .tabs-warning.tabs-bottom .nav-tabs li.active a:focus, html body .tabs-warning.tabs-bottom .nav-tabs.nav-justified li.active a, html body .tabs-warning.tabs-bottom .nav-tabs.nav-justified li.active a:hover, html body .tabs-warning.tabs-bottom .nav-tabs.nav-justified li.active a:focus, html.dark body .tabs-warning.tabs-bottom .nav-tabs li.active a, html.dark body .tabs-warning.tabs-bottom .nav-tabs li.active a:hover, html.dark body .tabs-warning.tabs-bottom .nav-tabs li.active a:focus, html.dark body .tabs-warning.tabs-bottom .nav-tabs.nav-justified li.active a, html.dark body .tabs-warning.tabs-bottom .nav-tabs.nav-justified li.active a:hover, html.dark body .tabs-warning.tabs-bottom .nav-tabs.nav-justified li.active a:focus {
+  border-bottom-color: #ed9c28
+}
+
+html body .tabs-warning.tabs-vertical.tabs-left li a:hover, html.dark body .tabs-warning.tabs-vertical.tabs-left li a:hover {
+  border-left-color: #ed9c28
+}
+
+html body .tabs-warning.tabs-vertical.tabs-left li.active a, html body .tabs-warning.tabs-vertical.tabs-left li.active a:hover, html body .tabs-warning.tabs-vertical.tabs-left li.active a:focus, html.dark body .tabs-warning.tabs-vertical.tabs-left li.active a, html.dark body .tabs-warning.tabs-vertical.tabs-left li.active a:hover, html.dark body .tabs-warning.tabs-vertical.tabs-left li.active a:focus {
+  border-left-color: #ed9c28
+}
+
+html body .tabs-warning.tabs-vertical.tabs-right li a:hover, html.dark body .tabs-warning.tabs-vertical.tabs-right li a:hover {
+  border-right-color: #ed9c28
+}
+
+html body .tabs-warning.tabs-vertical.tabs-right li.active a, html body .tabs-warning.tabs-vertical.tabs-right li.active a:hover, html body .tabs-warning.tabs-vertical.tabs-right li.active a:focus, html.dark body .tabs-warning.tabs-vertical.tabs-right li.active a, html.dark body .tabs-warning.tabs-vertical.tabs-right li.active a:hover, html.dark body .tabs-warning.tabs-vertical.tabs-right li.active a:focus {
+  border-right-color: #ed9c28
+}
+
+html body .tabs-danger .nav-tabs li a, html body .tabs-danger .nav-tabs li a:hover, html body .tabs-danger .nav-tabs.nav-justified li a, html body .tabs-danger .nav-tabs.nav-justified li a:hover, html.dark body .tabs-danger .nav-tabs li a, html.dark body .tabs-danger .nav-tabs li a:hover, html.dark body .tabs-danger .nav-tabs.nav-justified li a, html.dark body .tabs-danger .nav-tabs.nav-justified li a:hover {
+  color: #d2322d
+}
+
+html body .tabs-danger .nav-tabs li a:hover, html body .tabs-danger .nav-tabs.nav-justified li a:hover, html.dark body .tabs-danger .nav-tabs li a:hover, html.dark body .tabs-danger .nav-tabs.nav-justified li a:hover {
+  border-top-color: #d2322d
+}
+
+html body .tabs-danger .nav-tabs li.active a, html body .tabs-danger .nav-tabs li.active a:hover, html body .tabs-danger .nav-tabs li.active a:focus, html body .tabs-danger .nav-tabs.nav-justified li.active a, html body .tabs-danger .nav-tabs.nav-justified li.active a:hover, html body .tabs-danger .nav-tabs.nav-justified li.active a:focus, html.dark body .tabs-danger .nav-tabs li.active a, html.dark body .tabs-danger .nav-tabs li.active a:hover, html.dark body .tabs-danger .nav-tabs li.active a:focus, html.dark body .tabs-danger .nav-tabs.nav-justified li.active a, html.dark body .tabs-danger .nav-tabs.nav-justified li.active a:hover, html.dark body .tabs-danger .nav-tabs.nav-justified li.active a:focus {
+  border-top-color: #d2322d;
+  color: #d2322d
+}
+
+html body .tabs-danger.tabs-bottom .nav-tabs li a:hover, html body .tabs-danger.tabs-bottom .nav-tabs.nav-justified li a:hover, html.dark body .tabs-danger.tabs-bottom .nav-tabs li a:hover, html.dark body .tabs-danger.tabs-bottom .nav-tabs.nav-justified li a:hover {
+  border-bottom-color: #d2322d
+}
+
+html body .tabs-danger.tabs-bottom .nav-tabs li.active a, html body .tabs-danger.tabs-bottom .nav-tabs li.active a:hover, html body .tabs-danger.tabs-bottom .nav-tabs li.active a:focus, html body .tabs-danger.tabs-bottom .nav-tabs.nav-justified li.active a, html body .tabs-danger.tabs-bottom .nav-tabs.nav-justified li.active a:hover, html body .tabs-danger.tabs-bottom .nav-tabs.nav-justified li.active a:focus, html.dark body .tabs-danger.tabs-bottom .nav-tabs li.active a, html.dark body .tabs-danger.tabs-bottom .nav-tabs li.active a:hover, html.dark body .tabs-danger.tabs-bottom .nav-tabs li.active a:focus, html.dark body .tabs-danger.tabs-bottom .nav-tabs.nav-justified li.active a, html.dark body .tabs-danger.tabs-bottom .nav-tabs.nav-justified li.active a:hover, html.dark body .tabs-danger.tabs-bottom .nav-tabs.nav-justified li.active a:focus {
+  border-bottom-color: #d2322d
+}
+
+html body .tabs-danger.tabs-vertical.tabs-left li a:hover, html.dark body .tabs-danger.tabs-vertical.tabs-left li a:hover {
+  border-left-color: #d2322d
+}
+
+html body .tabs-danger.tabs-vertical.tabs-left li.active a, html body .tabs-danger.tabs-vertical.tabs-left li.active a:hover, html body .tabs-danger.tabs-vertical.tabs-left li.active a:focus, html.dark body .tabs-danger.tabs-vertical.tabs-left li.active a, html.dark body .tabs-danger.tabs-vertical.tabs-left li.active a:hover, html.dark body .tabs-danger.tabs-vertical.tabs-left li.active a:focus {
+  border-left-color: #d2322d
+}
+
+html body .tabs-danger.tabs-vertical.tabs-right li a:hover, html.dark body .tabs-danger.tabs-vertical.tabs-right li a:hover {
+  border-right-color: #d2322d
+}
+
+html body .tabs-danger.tabs-vertical.tabs-right li.active a, html body .tabs-danger.tabs-vertical.tabs-right li.active a:hover, html body .tabs-danger.tabs-vertical.tabs-right li.active a:focus, html.dark body .tabs-danger.tabs-vertical.tabs-right li.active a, html.dark body .tabs-danger.tabs-vertical.tabs-right li.active a:hover, html.dark body .tabs-danger.tabs-vertical.tabs-right li.active a:focus {
+  border-right-color: #d2322d
+}
+
+html body .tabs-info .nav-tabs li a, html body .tabs-info .nav-tabs li a:hover, html body .tabs-info .nav-tabs.nav-justified li a, html body .tabs-info .nav-tabs.nav-justified li a:hover, html.dark body .tabs-info .nav-tabs li a, html.dark body .tabs-info .nav-tabs li a:hover, html.dark body .tabs-info .nav-tabs.nav-justified li a, html.dark body .tabs-info .nav-tabs.nav-justified li a:hover {
+  color: #5bc0de
+}
+
+html body .tabs-info .nav-tabs li a:hover, html body .tabs-info .nav-tabs.nav-justified li a:hover, html.dark body .tabs-info .nav-tabs li a:hover, html.dark body .tabs-info .nav-tabs.nav-justified li a:hover {
+  border-top-color: #5bc0de
+}
+
+html body .tabs-info .nav-tabs li.active a, html body .tabs-info .nav-tabs li.active a:hover, html body .tabs-info .nav-tabs li.active a:focus, html body .tabs-info .nav-tabs.nav-justified li.active a, html body .tabs-info .nav-tabs.nav-justified li.active a:hover, html body .tabs-info .nav-tabs.nav-justified li.active a:focus, html.dark body .tabs-info .nav-tabs li.active a, html.dark body .tabs-info .nav-tabs li.active a:hover, html.dark body .tabs-info .nav-tabs li.active a:focus, html.dark body .tabs-info .nav-tabs.nav-justified li.active a, html.dark body .tabs-info .nav-tabs.nav-justified li.active a:hover, html.dark body .tabs-info .nav-tabs.nav-justified li.active a:focus {
+  border-top-color: #5bc0de;
+  color: #5bc0de
+}
+
+html body .tabs-info.tabs-bottom .nav-tabs li a:hover, html body .tabs-info.tabs-bottom .nav-tabs.nav-justified li a:hover, html.dark body .tabs-info.tabs-bottom .nav-tabs li a:hover, html.dark body .tabs-info.tabs-bottom .nav-tabs.nav-justified li a:hover {
+  border-bottom-color: #5bc0de
+}
+
+html body .tabs-info.tabs-bottom .nav-tabs li.active a, html body .tabs-info.tabs-bottom .nav-tabs li.active a:hover, html body .tabs-info.tabs-bottom .nav-tabs li.active a:focus, html body .tabs-info.tabs-bottom .nav-tabs.nav-justified li.active a, html body .tabs-info.tabs-bottom .nav-tabs.nav-justified li.active a:hover, html body .tabs-info.tabs-bottom .nav-tabs.nav-justified li.active a:focus, html.dark body .tabs-info.tabs-bottom .nav-tabs li.active a, html.dark body .tabs-info.tabs-bottom .nav-tabs li.active a:hover, html.dark body .tabs-info.tabs-bottom .nav-tabs li.active a:focus, html.dark body .tabs-info.tabs-bottom .nav-tabs.nav-justified li.active a, html.dark body .tabs-info.tabs-bottom .nav-tabs.nav-justified li.active a:hover, html.dark body .tabs-info.tabs-bottom .nav-tabs.nav-justified li.active a:focus {
+  border-bottom-color: #5bc0de
+}
+
+html body .tabs-info.tabs-vertical.tabs-left li a:hover, html.dark body .tabs-info.tabs-vertical.tabs-left li a:hover {
+  border-left-color: #5bc0de
+}
+
+html body .tabs-info.tabs-vertical.tabs-left li.active a, html body .tabs-info.tabs-vertical.tabs-left li.active a:hover, html body .tabs-info.tabs-vertical.tabs-left li.active a:focus, html.dark body .tabs-info.tabs-vertical.tabs-left li.active a, html.dark body .tabs-info.tabs-vertical.tabs-left li.active a:hover, html.dark body .tabs-info.tabs-vertical.tabs-left li.active a:focus {
+  border-left-color: #5bc0de
+}
+
+html body .tabs-info.tabs-vertical.tabs-right li a:hover, html.dark body .tabs-info.tabs-vertical.tabs-right li a:hover {
+  border-right-color: #5bc0de
+}
+
+html body .tabs-info.tabs-vertical.tabs-right li.active a, html body .tabs-info.tabs-vertical.tabs-right li.active a:hover, html body .tabs-info.tabs-vertical.tabs-right li.active a:focus, html.dark body .tabs-info.tabs-vertical.tabs-right li.active a, html.dark body .tabs-info.tabs-vertical.tabs-right li.active a:hover, html.dark body .tabs-info.tabs-vertical.tabs-right li.active a:focus {
+  border-right-color: #5bc0de
+}
+
+html body .tabs-dark .nav-tabs li a, html body .tabs-dark .nav-tabs li a:hover, html body .tabs-dark .nav-tabs.nav-justified li a, html body .tabs-dark .nav-tabs.nav-justified li a:hover, html.dark body .tabs-dark .nav-tabs li a, html.dark body .tabs-dark .nav-tabs li a:hover, html.dark body .tabs-dark .nav-tabs.nav-justified li a, html.dark body .tabs-dark .nav-tabs.nav-justified li a:hover {
+  color: #171717
+}
+
+html body .tabs-dark .nav-tabs li a:hover, html body .tabs-dark .nav-tabs.nav-justified li a:hover, html.dark body .tabs-dark .nav-tabs li a:hover, html.dark body .tabs-dark .nav-tabs.nav-justified li a:hover {
+  border-top-color: #171717
+}
+
+html body .tabs-dark .nav-tabs li.active a, html body .tabs-dark .nav-tabs li.active a:hover, html body .tabs-dark .nav-tabs li.active a:focus, html body .tabs-dark .nav-tabs.nav-justified li.active a, html body .tabs-dark .nav-tabs.nav-justified li.active a:hover, html body .tabs-dark .nav-tabs.nav-justified li.active a:focus, html.dark body .tabs-dark .nav-tabs li.active a, html.dark body .tabs-dark .nav-tabs li.active a:hover, html.dark body .tabs-dark .nav-tabs li.active a:focus, html.dark body .tabs-dark .nav-tabs.nav-justified li.active a, html.dark body .tabs-dark .nav-tabs.nav-justified li.active a:hover, html.dark body .tabs-dark .nav-tabs.nav-justified li.active a:focus {
+  border-top-color: #171717;
+  color: #171717
+}
+
+html body .tabs-dark.tabs-bottom .nav-tabs li a:hover, html body .tabs-dark.tabs-bottom .nav-tabs.nav-justified li a:hover, html.dark body .tabs-dark.tabs-bottom .nav-tabs li a:hover, html.dark body .tabs-dark.tabs-bottom .nav-tabs.nav-justified li a:hover {
+  border-bottom-color: #171717
+}
+
+html body .tabs-dark.tabs-bottom .nav-tabs li.active a, html body .tabs-dark.tabs-bottom .nav-tabs li.active a:hover, html body .tabs-dark.tabs-bottom .nav-tabs li.active a:focus, html body .tabs-dark.tabs-bottom .nav-tabs.nav-justified li.active a, html body .tabs-dark.tabs-bottom .nav-tabs.nav-justified li.active a:hover, html body .tabs-dark.tabs-bottom .nav-tabs.nav-justified li.active a:focus, html.dark body .tabs-dark.tabs-bottom .nav-tabs li.active a, html.dark body .tabs-dark.tabs-bottom .nav-tabs li.active a:hover, html.dark body .tabs-dark.tabs-bottom .nav-tabs li.active a:focus, html.dark body .tabs-dark.tabs-bottom .nav-tabs.nav-justified li.active a, html.dark body .tabs-dark.tabs-bottom .nav-tabs.nav-justified li.active a:hover, html.dark body .tabs-dark.tabs-bottom .nav-tabs.nav-justified li.active a:focus {
+  border-bottom-color: #171717
+}
+
+html body .tabs-dark.tabs-vertical.tabs-left li a:hover, html.dark body .tabs-dark.tabs-vertical.tabs-left li a:hover {
+  border-left-color: #171717
+}
+
+html body .tabs-dark.tabs-vertical.tabs-left li.active a, html body .tabs-dark.tabs-vertical.tabs-left li.active a:hover, html body .tabs-dark.tabs-vertical.tabs-left li.active a:focus, html.dark body .tabs-dark.tabs-vertical.tabs-left li.active a, html.dark body .tabs-dark.tabs-vertical.tabs-left li.active a:hover, html.dark body .tabs-dark.tabs-vertical.tabs-left li.active a:focus {
+  border-left-color: #171717
+}
+
+html body .tabs-dark.tabs-vertical.tabs-right li a:hover, html.dark body .tabs-dark.tabs-vertical.tabs-right li a:hover {
+  border-right-color: #171717
+}
+
+html body .tabs-dark.tabs-vertical.tabs-right li.active a, html body .tabs-dark.tabs-vertical.tabs-right li.active a:hover, html body .tabs-dark.tabs-vertical.tabs-right li.active a:focus, html.dark body .tabs-dark.tabs-vertical.tabs-right li.active a, html.dark body .tabs-dark.tabs-vertical.tabs-right li.active a:hover, html.dark body .tabs-dark.tabs-vertical.tabs-right li.active a:focus {
+  border-right-color: #171717
+}
+
+html.dark body .tabs-dark .nav-tabs li a, html.dark body .tabs-dark .nav-tabs li a:hover, html.dark body .tabs-dark .nav-tabs.nav-justified li a, html.dark body .tabs-dark .nav-tabs.nav-justified li a:hover {
+  color: #FFF
+}
+
+html.dark body .tabs-dark .nav-tabs li a:hover, html.dark body .tabs-dark .nav-tabs.nav-justified li a:hover {
+  border-top-color: #FFF
+}
+
+html.dark body .tabs-dark .nav-tabs li.active a, html.dark body .tabs-dark .nav-tabs li.active a:hover, html.dark body .tabs-dark .nav-tabs li.active a:focus, html.dark body .tabs-dark .nav-tabs.nav-justified li.active a, html.dark body .tabs-dark .nav-tabs.nav-justified li.active a:hover, html.dark body .tabs-dark .nav-tabs.nav-justified li.active a:focus {
+  border-top-color: #FFF;
+  color: #FFF
+}
+
+html.dark body .tabs-dark.tabs-bottom .nav-tabs li a:hover, html.dark body .tabs-dark.tabs-bottom .nav-tabs.nav-justified li a:hover {
+  border-bottom-color: #FFF
+}
+
+html.dark body .tabs-dark.tabs-bottom .nav-tabs li.active a, html.dark body .tabs-dark.tabs-bottom .nav-tabs li.active a:hover, html.dark body .tabs-dark.tabs-bottom .nav-tabs li.active a:focus, html.dark body .tabs-dark.tabs-bottom .nav-tabs.nav-justified li.active a, html.dark body .tabs-dark.tabs-bottom .nav-tabs.nav-justified li.active a:hover, html.dark body .tabs-dark.tabs-bottom .nav-tabs.nav-justified li.active a:focus {
+  border-bottom-color: #FFF
+}
+
+html.dark body .tabs-dark.tabs-vertical.tabs-left li a:hover {
+  border-left-color: #FFF
+}
+
+html.dark body .tabs-dark.tabs-vertical.tabs-left li.active a, html.dark body .tabs-dark.tabs-vertical.tabs-left li.active a:hover, html.dark body .tabs-dark.tabs-vertical.tabs-left li.active a:focus {
+  border-left-color: #FFF
+}
+
+html.dark body .tabs-dark.tabs-vertical.tabs-right li a:hover {
+  border-right-color: #FFF
+}
+
+html.dark body .tabs-dark.tabs-vertical.tabs-right li.active a, html.dark body .tabs-dark.tabs-vertical.tabs-right li.active a:hover, html.dark body .tabs-dark.tabs-vertical.tabs-right li.active a:focus {
+  border-right-color: #FFF
+}
+
+html body .tabs-primary .nav-tabs li a, html.dark body .tabs-primary .nav-tabs li a, html body .tabs-primary .nav-tabs.nav-justified li a, html.dark body .tabs-primary .nav-tabs.nav-justified li a, html body .tabs-primary .nav-tabs li a:hover, html.dark body .tabs-primary .nav-tabs li a:hover, html body .tabs-primary .nav-tabs.nav-justified li a:hover, html.dark body .tabs-primary .nav-tabs.nav-justified li a:hover {
+  color: #f58220
+}
+
+html body .tabs-primary .nav-tabs li a:hover, html.dark body .tabs-primary .nav-tabs li a:hover, html body .tabs-primary .nav-tabs.nav-justified li a:hover, html.dark body .tabs-primary .nav-tabs.nav-justified li a:hover {
+  border-top-color: #f58220
+}
+
+html body .tabs-primary .nav-tabs li.active a, html.dark body .tabs-primary .nav-tabs li.active a, html body .tabs-primary .nav-tabs.nav-justified li.active a, html.dark body .tabs-primary .nav-tabs.nav-justified li.active a, html body .tabs-primary .nav-tabs li.active a:hover, html.dark body .tabs-primary .nav-tabs li.active a:hover, html body .tabs-primary .nav-tabs.nav-justified li.active a:hover, html.dark body .tabs-primary .nav-tabs.nav-justified li.active a:hover, html body .tabs-primary .nav-tabs li.active a:focus, html.dark body .tabs-primary .nav-tabs li.active a:focus, html body .tabs-primary .nav-tabs.nav-justified li.active a:focus, html.dark body .tabs-primary .nav-tabs.nav-justified li.active a:focus {
+  border-top-color: #f58220;
+  color: #f58220
+}
+
+html body .tabs-primary.tabs-bottom .nav-tabs li a:hover, html.dark body .tabs-primary.tabs-bottom .nav-tabs li a:hover, html body .tabs-primary.tabs-bottom .nav-tabs.nav-justified li a:hover, html.dark body .tabs-primary.tabs-bottom .nav-tabs.nav-justified li a:hover {
+  border-bottom-color: #f58220
+}
+
+html body .tabs-primary.tabs-bottom .nav-tabs li.active a, html.dark body .tabs-primary.tabs-bottom .nav-tabs li.active a, html body .tabs-primary.tabs-bottom .nav-tabs.nav-justified li.active a, html.dark body .tabs-primary.tabs-bottom .nav-tabs.nav-justified li.active a, html body .tabs-primary.tabs-bottom .nav-tabs li.active a:hover, html.dark body .tabs-primary.tabs-bottom .nav-tabs li.active a:hover, html body .tabs-primary.tabs-bottom .nav-tabs.nav-justified li.active a:hover, html.dark body .tabs-primary.tabs-bottom .nav-tabs.nav-justified li.active a:hover, html body .tabs-primary.tabs-bottom .nav-tabs li.active a:focus, html.dark body .tabs-primary.tabs-bottom .nav-tabs li.active a:focus, html body .tabs-primary.tabs-bottom .nav-tabs.nav-justified li.active a:focus, html.dark body .tabs-primary.tabs-bottom .nav-tabs.nav-justified li.active a:focus {
+  border-top-color: #FFF;
+  border-bottom-color: #f58220
+}
+
+html body .tabs-primary.tabs-vertical.tabs-left li a:hover, html.dark body .tabs-primary.tabs-vertical.tabs-left li a:hover {
+  border-left-color: #f58220
+}
+
+html body .tabs-primary.tabs-vertical.tabs-left li.active a, html.dark body .tabs-primary.tabs-vertical.tabs-left li.active a, html body .tabs-primary.tabs-vertical.tabs-left li.active a:hover, html.dark body .tabs-primary.tabs-vertical.tabs-left li.active a:hover, html body .tabs-primary.tabs-vertical.tabs-left li.active a:focus, html.dark body .tabs-primary.tabs-vertical.tabs-left li.active a:focus {
+  border-left-color: #f58220
+}
+
+html body .tabs-primary.tabs-vertical.tabs-right li a:hover, html.dark body .tabs-primary.tabs-vertical.tabs-right li a:hover {
+  border-right-color: #f58220
+}
+
+html body .tabs-primary.tabs-vertical.tabs-right li.active a, html.dark body .tabs-primary.tabs-vertical.tabs-right li.active a, html body .tabs-primary.tabs-vertical.tabs-right li.active a:hover, html.dark body .tabs-primary.tabs-vertical.tabs-right li.active a:hover, html body .tabs-primary.tabs-vertical.tabs-right li.active a:focus, html.dark body .tabs-primary.tabs-vertical.tabs-right li.active a:focus {
+  border-right-color: #f58220
+}
+
+section.panel {
+  margin-bottom: 0;
+  box-shadow: none
+}
+
+.tab-content .panel-body {
+  box-shadow: none
+}
+
+.tab-content {
+  box-shadow: none;
+  border: 0;
+  border-top: 0
+}
+
+.nav-tabs {
+  background: #fff;
+  padding: 0 15px
+}
+
+.nav-tabs li a {
+  background: 0;
+  border: 0;
+  color: #555;
+  border-left: 0 solid #eee;
+  border-right: 0 solid #eee
+}
+
+.nav-tabs li a:hover {
+  border-left: 0 solid #eee;
+  border-right: 0 solid #eee;
+  border-top: 2px solid #f58220;
+  color: #555;
+  border-radius: 0
+}
+
+.nav-tabs li.active a, .nav-tabs li.active a:hover, .nav-tabs li.active a:focus {
+  background: white;
+  border-left-color: #eee;
+  border-right-color: #eee;
+  border-top: 2px solid #f58220;
+  color: #555;
+  border-radius: 0
+}
+
+.tabs {
+  margin: 0
+}
+
+.panel_mar .tabs {
+  margin: 0 -15px
+}

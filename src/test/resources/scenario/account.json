@@ -1,0 +1,19 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "cif": "00001",
+      "username": "binhminh",
+      "secret": "111",
+      "email": "nguyen@gmail.com",
+      "msisdn": "999",
+      "fullName": "111",
+      "balance": 1,
+      "customerType": 1,
+      "walletType": 1,
+      "userType": 1,
+      "active": true
+    }
+  ]
+}
+

@@ -1,0 +1,82 @@
+.bootstrap-select {
+  width: 100% !important;
+}
+
+.datepair-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.input-daterange-wrap {
+  float: left;
+}
+
+.input-daterange-to {
+  float: left;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.table.dataTable tbody tr:hover:last-child .sub-table {
+  bottom: 0;
+}
+
+.table.dataTable tbody tr.mobile {
+  background: #d7d7d7;
+  display: none;
+}
+
+.table.dataTable tbody tr.mobile .color-money {
+  color: #00D963;
+}
+
+.table.dataTable tbody tr.mobile .button-true {
+  background: #f48120;
+  color: #FFFFFF;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+.table.dataTable tbody tr.even, .table.dataTable tbody tr.odd {
+  position: relative;
+}
+
+table.dataTable tbody tr:hover .sub-table {
+  display: inline-block;
+}
+
+.sub-table {
+  position: absolute;
+  left: 0;
+  margin-top: 30px;
+  z-index: 2;
+  background: #FFFFFF;
+  padding: 20px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  display: none;
+  transition: all .05s;
+}
+
+.sub-table tr:hover {
+  background: transparent;
+}
+
+.sub-table th, .sub-table td {
+  border: none;
+  background: transparent;
+}
+
+@media (max-width: 767px) {
+  .table.dataTable tbody tr.mobile {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 1360px) {
+  .input-daterange-wrap, .input-daterange-to {
+    display: block;
+    float: none;
+  }
+}

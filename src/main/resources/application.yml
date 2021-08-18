@@ -1,0 +1,30 @@
+server:
+  port: 11104
+  context-path: /
+  connection-timeout: 50000
+  session:
+    timeout: 3600
+# The maximum number of request processing threads 
+  tomcat:
+    max-threads: 250
+# The maximum number of connections that the server will accept and process at any given time.
+    max-connections: 10000
+
+## =====================================================
+### Payment Service security ###################
+security:
+  payment:
+    service:
+      access-key: 48f1ad563e0811e8b4670ed5f89f718b
+      secret-key: d21d69363e0711e8b4670ed5f89f718b
+      
+## =====================================================    
+spring:
+  http:
+    multipart:
+      max-file-size: 500MB
+      max-request-size: 500MB
+  jackson:
+    date-format: com.fasterxml.jackson.databind.util.ISO8601DateFormat
+    
+## =====================================================
